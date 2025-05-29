@@ -21,6 +21,9 @@
       "@database/*": [
         "./src/database/*"
       ],
+      "@cache/*": [
+        "./src/cache/*"
+      ],
       "@auth/*": [
         "./src/auth/*"
       ],
@@ -28,7 +31,7 @@
         "./src/modules/*"
       ],
       "@common/*": [
-        "./src/common/*"
+        "src/common/*"
       ],
     }
   }
