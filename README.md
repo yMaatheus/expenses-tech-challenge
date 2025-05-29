@@ -27,6 +27,9 @@
   
   > Documentação Swagger: https://expenses-tech-challenge.fly.dev/v1/docs
 
+  ## Atenção! Token de autenticação Bearer fake-jwt-token
+  Utilize o ```fake-jwt-token``` dentro do Authorize na documentação para ter acesso aos endpoints.
+
 ---
 
 ## 🚀 Como rodar em desenvolvimento (Docker)
