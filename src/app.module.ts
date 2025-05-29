@@ -12,6 +12,7 @@ import { Module } from '@nestjs/common';
     RedisModule.forRoot({
       config: {
         url: process.env.REDIS_URL,
+        family: Number(process.env.REDIS_FAMILY) || 4,
       },
       readyLog: true,
       closeClient: true,
